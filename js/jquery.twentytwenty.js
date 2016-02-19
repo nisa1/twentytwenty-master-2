@@ -45,7 +45,7 @@
       	else {
           beforeImg.css("clip", "rect(0,"+offset.cw+","+offset.h+",0)");
     	}
-        container.css("height", 600px);
+        container.css("height", offset.h);
       };
 
       var adjustSlider = function(pct) {
